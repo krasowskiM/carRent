@@ -59,6 +59,7 @@ public class TestServlet extends HttpServlet {
 					//
 					ds.createCarTable(response);
 			out.println("<div id=\"invisible_window\">\n");
+			//formularz pobierania danych do wypozyczenia
 					ds.createRentalForm(response);
 			out.println("</div>\n");
 					
